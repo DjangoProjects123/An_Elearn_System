@@ -1,14 +1,31 @@
 # An_Elearn_System
 
-...An e-learning platform for common unit sharing
-...> Django project
+An e-learning platform for common unit sharing
+
+> Django project
 
 ## Installation
-
-``` bash
-# Clone project
-$ 
-
-# Move into cloned directory and run the followoing commands
-$ 
+### 1. Clone project
+```bash
+$ git clone git@github.com:DjangoProjects123/An_Elearn_System.git
 ```
+
+### 2. Install dependencies
+```bash
+$ cd An_Elearn_System/
+$ pip install -r requirements.txt
+```
+
+### 3. Run database migrations
+```bash
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage.py createsuperuser
+```
+
+### 4. Run the development server
+```bash
+$ python manage.py runserver
+```
+> Access the server at [here](http://127.0.0.1:8000)
+
